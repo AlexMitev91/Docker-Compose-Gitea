@@ -16,7 +16,7 @@ while true; do
 done
 
 # Add user
-docker container exec -u 1000 gitea gitea admin user create --username alex --password password1 --email alex@do1.exam
+docker container exec -u 1000 gitea gitea admin user create --username alex --password password1 --email alex@gitea.lab
 
 # Clone the project
 git clone https://github.com/AlexMitev91/Dokcer-Compose-Gitea.git /tmp/project

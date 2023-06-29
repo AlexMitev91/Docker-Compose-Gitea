@@ -1,4 +1,5 @@
 #!/bin/bash
+source .env
 
 # Start Gitea
 docker compose -f /vagrant/setup/docker-compose.yml up -d
